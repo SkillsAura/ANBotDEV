@@ -3690,5 +3690,5 @@
         }
     };*/
 
-    loadChat(basicBot.startup);
+    loadChat(basicBot.startup); 
 }).call(this);
