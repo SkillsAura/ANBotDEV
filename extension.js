@@ -100,8 +100,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "arkhamBot",
       language: "english",
-      chatLink: "https://rawgit.com/SkillsAura/ANBot/master/lang/en.json",
-      scriptLink: "https://rawgit.com/SkillsAura/ANBot/master/script/basicBot.js",
+      chatLink: "https://rawgit.com/SkillsAura/ANBotDEV/master/lang/en.json",
+      scriptLink: "https://rawgit.com/SkillsAura/ANBotDEV/master/script/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -158,12 +158,12 @@
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        op: "https://rawgit.com/SkillsAura/ANBot/master/blacklists/op.json",
-        bl: "https://rawgit.com/SkillsAura/ANBot/master/blacklists/bl.json"
+        op: "https://rawgit.com/SkillsAura/ANBotDEV/master/blacklists/op.json",
+        bl: "https://rawgit.com/SkillsAura/ANBotDEV/master/blacklists/bl.json"
       }
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/SkillsAura/ANBot/master/script/basicBot.js", extend);
+    $.getScript("https://rawgit.com/SkillsAura/ANBotDEV/master/script/basicBot.js", extend);
 
 }).call(this);
