@@ -1563,7 +1563,7 @@
                 }
             },
 
-            afklimitCommand: {
+/*             afklimitCommand: {
                 command: 'afklimit',
                 rank: 'manager',
                 type: 'startsWith',
@@ -1581,9 +1581,9 @@
                         else API.sendChat(subChat(basicBot.chat.invalidlimitspecified, {name: chat.un}));
                     }
                 }
-            },
+            }, */
 
-            afkremovalCommand: {
+/*             afkremovalCommand: {
                 command: 'afkremoval',
                 rank: 'mod',
                 type: 'exact',
@@ -1605,9 +1605,9 @@
                         }
                     }
                 }
-            },
+            }, */
 
-            afkresetCommand: {
+/*             afkresetCommand: {
                 command: 'afkreset',
                 rank: 'bouncer',
                 type: 'startsWith',
@@ -1624,9 +1624,9 @@
                         API.sendChat(subChat(basicBot.chat.afkstatusreset, {name: chat.un, username: name}));
                     }
                 }
-            },
+            }, */
 
-            afktimeCommand: {
+/*             afktimeCommand: {
                 command: 'afktime',
                 rank: 'bouncer',
                 type: 'startsWith',
@@ -1653,9 +1653,9 @@
                         }
                     }
                 }
-            },
+            }, */
 
-            autodisableCommand: {
+/*             autodisableCommand: {
                 command: 'autodisable',
                 rank: 'bouncer',
                 type: 'exact',
@@ -1674,9 +1674,9 @@
 
                     }
                 }
-            },
+            }, */
 
-            autoskipCommand: {
+/*             autoskipCommand: {
                 command: 'autoskip',
                 rank: 'mod',
                 type: 'exact',
@@ -1695,7 +1695,7 @@
                         }
                     }
                 }
-            },
+            }, */
 
             autowootCommand: {
                 command: 'autowoot',
@@ -1822,7 +1822,7 @@
                 }
             },
 
-            bouncerPlusCommand: {
+/*             bouncerPlusCommand: {
                 command: 'bouncer+',
                 rank: 'manager',
                 type: 'exact',
@@ -1848,9 +1848,9 @@
                         }
                     }
                 }
-            },
+            }, */
 
-            botnameCommand: {
+/*             botnameCommand: {
                 command: 'botname',
                 rank: 'manager',
                 type: 'startsWith',
@@ -1867,7 +1867,7 @@
                         }
                     }
                 }
-            },
+            }, */
 
             clearchatCommand: {
                 command: 'clearchat',
@@ -1982,7 +1982,7 @@
                 }
             },
 
-            cycleguardCommand: {
+/*             cycleguardCommand: {
                 command: 'cycleguard',
                 rank: 'bouncer',
                 type: 'exact',
@@ -2001,9 +2001,9 @@
 
                     }
                 }
-            },
+            }, */
 
-            cycletimerCommand: {
+/*             cycletimerCommand: {
                 command: 'cycletimer',
                 rank: 'manager',
                 type: 'startsWith',
@@ -2021,9 +2021,9 @@
 
                     }
                 }
-            },
+            }, */
 
-            dclookupCommand: {
+/*             dclookupCommand: {
                 command: ['dclookup', 'dc'],
                 rank: 'user',
                 type: 'startsWith',
@@ -2045,7 +2045,7 @@
                         API.sendChat(toChat);
                     }
                 }
-            },
+            }, */
 
             /*
 
@@ -2122,7 +2122,7 @@
             },
 
 
-            emojiCommand: {
+/*             emojiCommand: {
                 command: 'emoji',
                 rank: 'user',
                 type: 'exact',
@@ -2134,7 +2134,7 @@
                         API.sendChat(subChat(basicBot.chat.emojilist, {link: link}));
                     }
                 }
-            },
+            }, */
 
             englishCommand: {
                 command: 'english',
@@ -2199,7 +2199,7 @@
                     }
                 }
             },
-
+/* 
             fbCommand: {
                 command: 'fb',
                 rank: 'user',
@@ -2212,7 +2212,7 @@
                             API.sendChat(subChat(basicBot.chat.facebook, {link: basicBot.settings.fbLink}));
                     }
                 }
-            },
+            }, */
 
             filterCommand: {
                 command: 'filter',
@@ -2253,7 +2253,7 @@
                 }
             },
 
-            ghostbusterCommand: {
+/*             ghostbusterCommand: {
                 command: 'ghostbuster',
                 rank: 'user',
                 type: 'startsWith',
@@ -2274,11 +2274,11 @@
                         else API.sendChat(subChat(basicBot.chat.notghosting, {name1: chat.un, name2: name}));
                     }
                 }
-            },
+            }, */
 
             gifCommand: {
                 command: ['dontusethisgoddamncommandyougaylookingdipshitfucktard'],
-                rank: 'user',
+                rank: 'residentdj',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2416,7 +2416,7 @@
                 }
             },
 
-            kickCommand: {
+/*             kickCommand: {
                 command: 'kick',
                 rank: 'bouncer',
                 type: 'startsWith',
@@ -2427,7 +2427,7 @@
                         API.sendChat("/me This feature has been temporarily disabled! Please manually execute ban and unban instead!");
                     }
                 }
-            },
+            }, */
 
             killCommand: {
                 command: 'kill',
@@ -2554,7 +2554,7 @@
                 }
             },
 
-            lockguardCommand: {
+/*             lockguardCommand: {
                 command: 'lockguard',
                 rank: 'bouncer',
                 type: 'exact',
@@ -2572,9 +2572,9 @@
                         }
                     }
                 }
-            },
+            }, */
 
-            lockskipCommand: {
+/*             lockskipCommand: {
                 command: 'lockskip',
                 rank: 'bouncer',
                 type: 'startsWith',
@@ -2641,9 +2641,9 @@
                         }
                     }
                 }
-            },
+            }, */
 
-            locktimerCommand: {
+/*             locktimerCommand: {
                 command: 'locktimer',
                 rank: 'manager',
                 type: 'startsWith',
@@ -2660,9 +2660,9 @@
                         else return API.sendChat(subChat(basicBot.chat.invalidtime, {name: chat.un}));
                     }
                 }
-            },
+            }, */
 
-            logoutCommand: {
+/*             logoutCommand: {
                 command: 'logout',
                 rank: 'manager',
                 type: 'exact',
@@ -2677,7 +2677,7 @@
                     }
                 }
             },
-
+ */
             maxlengthCommand: {
                 command: 'maxlength',
                 rank: 'manager',
@@ -2754,7 +2754,7 @@
                 }
             },
 
-            muteCommand: {
+/*             muteCommand: {
                 command: 'mute',
                 rank: 'bouncer',
                 type: 'startsWith',
@@ -2807,7 +2807,7 @@
                         else API.sendChat(subChat(basicBot.chat.muterank, {name: chat.un}));
                     }
                 }
-            },
+            }, */
 
             opCommand: {
                 command: 'op',
@@ -2906,7 +2906,7 @@
                 }
             },
 
-            restrictetaCommand: {
+/*             restrictetaCommand: {
                 command: 'restricteta',
                 rank: 'bouncer',
                 type: 'exact',
@@ -2924,7 +2924,7 @@
                         }
                     }
                 }
-            },
+            }, */
 
             rouletteCommand: {
                 command: 'roulette',
@@ -3024,7 +3024,7 @@
                 }
             },
 */ 
-            skipposCommand: {
+/*             skipposCommand: {
                 command: 'skippos',
                 rank: 'manager',
                 type: 'startsWith',
@@ -3041,7 +3041,7 @@
                         else return API.sendChat(subChat(basicBot.chat.invalidpositionspecified, {name: chat.un}));
                     }
                 }
-            },
+            }, */
 
             songstatsCommand: {
                 command: 'songstats',
@@ -3062,7 +3062,7 @@
                     }
                 }
             },
-
+/* 
             sourceCommand: {
                 command: 'source',
                 rank: 'user',
@@ -3074,7 +3074,7 @@
                         API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
                     }
                 }
-            },
+            }, */
 
             statusCommand: {
                 command: 'status',
@@ -3235,7 +3235,7 @@
                 }
             },
 
-            themeCommand: {
+/*             themeCommand: {
                 command: 'theme',
                 rank: 'user',
                 type: 'exact',
@@ -3395,9 +3395,9 @@
                         }
                     }
                 }
-            },
+            }, */
 
-            unbanCommand: {
+/*             unbanCommand: {
                 command: 'unban',
                 rank: 'bouncer',
                 type: 'startsWith',
@@ -3425,7 +3425,7 @@
                         });
                     }
                 }
-            },
+            }, */
 
             unlockCommand: {
                 command: 'unlock',
@@ -3440,7 +3440,7 @@
                 }
             },
 
-            unmuteCommand: {
+/*             unmuteCommand: {
                 command: 'unmute',
                 rank: 'bouncer',
                 type: 'startsWith',
@@ -3479,7 +3479,7 @@
                         });
                     }
                 }
-            },
+            }, */
 
             usercmdcdCommand: {
                 command: 'usercmdcd',
@@ -3519,7 +3519,7 @@
                     }
                 }
             },
-
+/* 
             voteratioCommand: {
                 command: 'voteratio',
                 rank: 'bouncer',
@@ -3538,9 +3538,9 @@
                         API.sendChat(subChat(basicBot.chat.voteratio, {name: chat.un, username: name, woot: vratio.woot, mehs: vratio.meh, ratio: ratio.toFixed(2)}));
                     }
                 }
-            },
+            }, */
 
-            voteskipCommand: {
+/*             voteskipCommand: {
                 command: 'voteskip',
                 rank: 'manager',
                 type: 'startsWith',
@@ -3561,9 +3561,9 @@
                         }
                     }
                 }
-            },
+            }, */
 
-            welcomeCommand: {
+/*            welcomeCommand: {
                 command: 'welcome',
                 rank: 'mod',
                 type: 'exact',
@@ -3581,7 +3581,7 @@
                         }
                     }
                 }
-            },
+            },*/
 
             websiteCommand: {
                 command: 'website',
@@ -3674,7 +3674,7 @@
                 }
             },
 
-            youtubeCommand: {
+/*            youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',
                 type: 'exact',
@@ -3688,7 +3688,7 @@
                 }
             }
         }
-    };
+    };*/
 
     loadChat(basicBot.startup);
 }).call(this);
