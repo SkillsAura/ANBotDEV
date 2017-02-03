@@ -1342,7 +1342,7 @@
         },
         startup: function () {
             Function.prototype.toString = function () {
-                return 'Function.'
+                return 'Function.';
             };
             var u = API.getUser();
             if (basicBot.userUtilities.getPermission(u) < 2) return API.chatLog(basicBot.chat.greyuser);
